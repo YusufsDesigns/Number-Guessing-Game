@@ -51,10 +51,12 @@ let min = 1,
                 msg1.textContent = 'Your guess is to low.'
                 msg2.innerHTML = `No. of guesses none: ${numberOfGuesses}`;
                 msg3.innerHTML = `Guessed numbers are: ${guesses}`
+                guessInput.value = '';
             } else if(guess > winningGuess){
                 msg1.textContent = 'Your guess is to high.'
                 msg2.innerHTML = `No. of guesses none: ${numberOfGuesses}`;
                 msg3.innerHTML = `Guessed numbers are: ${guesses}`
+                guessInput.value = '';
             }
         }
     });

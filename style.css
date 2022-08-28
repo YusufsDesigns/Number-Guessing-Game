@@ -89,6 +89,7 @@ code, pre{
     text-transform: uppercase;
     font-weight: bolder;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .card .content p:first-of-type{
